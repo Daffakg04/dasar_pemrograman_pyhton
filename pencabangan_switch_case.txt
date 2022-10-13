@@ -1,0 +1,19 @@
+lang = input("bahasa programming apa yg anda pilih ? ")
+
+match lang:
+    case "JavaScript":
+        print("Anda adalah seorang web developer.")
+
+    case "Python":
+        print("Anda adalah seorang Data Scientist")
+
+    case "PHP":
+        print("Anda adalah seorang backend developer")
+    
+    case "Solidity":
+        print("Anda adalah seorang Blockchain developer")
+
+    case "Java":
+        print("Anda adalah seorang mobile  developer")
+    case _:
+        print("Bahasa yg di pilih tidak terdaftar.")

@@ -1,0 +1,31 @@
+#pengulangan dengan for
+for x in range(0, 5):
+    print("belajar pengulangan for" ,x)
+print("=============================" )
+for y in range(1, 5):
+    print("belajar pengulangan" ,y)  
+
+#pengulangan dengan  while  
+print("=============================" )
+i = 1
+while i <= 5:
+  print("belajar pengulangan while ",i)
+  i += 1
+
+
+  
+
+#pengulangan dengan rekursif
+print("===========belajar rekursif========== ")  
+def tampilkanAngka (batas, i = 1):
+  if (i < batas):
+    # di sini lah rekursifitas itu terjadi
+    tampilkanAngka(batas, i + 1)
+
+  print(f'Pengulangan ke {i}')
+
+# memanggil fungsi tampilanAngka
+# untuk pertama  kali
+tampilkanAngka(4)
+print("===========pemanggilan  rekursif yg  ke 2========== ")  
+tampilkanAngka(8)

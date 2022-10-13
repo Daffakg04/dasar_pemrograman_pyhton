@@ -1,0 +1,16 @@
+{
+    "emp_karyawan":[
+    {"NIP":"20220001",
+     "nama":"Jamaludin",
+     "email":"jamal@dsn.ubharajaya.ac.id"   
+    },
+    {"NIP":"20220002",
+     "nama":"hasan",
+     "email":"hasan@dsn.ubharajaya.ac.id"   
+    },
+      {"NIP":"20220001",
+       "nama":"yanti",
+       "email":"yanti@dsn.ubharajaya.ac.id"   
+      } 
+    ]
+  }

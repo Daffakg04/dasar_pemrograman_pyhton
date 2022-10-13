@@ -1,0 +1,6 @@
+a = int(input('Masukkan bilangan ganjil lebih besar dari 50: '))
+print("------------------------------------------------")
+while a % 2 != 1 or a <= 50:
+  a = int(input('Salah, masukkan lagi: '))
+
+print('Benar')

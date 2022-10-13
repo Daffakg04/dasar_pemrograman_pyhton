@@ -1,0 +1,11 @@
+
+
+print('Kode program ini akan selalu dieksekusi karena tidak termasuk pada percabangan')
+print('----------pencabangan satu kondisi--------------------')
+
+bilangan =5
+if bilangan < 5:
+    print("Kondisi benar")
+else:
+    print("Kondisi salah")
+
