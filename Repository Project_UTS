@@ -1,0 +1,32 @@
+Tipe data atau data type, adalah atribut yang terkait dengan sepotong data yang bisa memberi tahu sistem komputer cara untuk menafsirkan nilainya. contoh : integer, char, float, string
+contoh kode python tipe data integer : 
+bilangan = 10
+print(bilangan)
+contoh kode python tipe data string :
+nama = “Daffa.K.G”
+print(nama)
+contoh code if :
+
+umur = int(input('Masukkan umur: '))
+
+if umur >= 65:
+  print('Usia Pensiun')
+elif umur >= 25:
+  print('Usia Produktif')
+elif umur >= 15:
+  print('Usia Remaja')
+elif umur >= 1:
+  print('Usia Anak Anak')
+else:
+  print('kondisi salah ')
+  i = 1
+while i <= 5:
+  print(i)
+  i += 1
+listKota = [
+  'Jakarta', 'Surabaya', 'Depok', 'Bekasi', 'Solo',
+  'Jogjakarta', 'Semarang', 'Makassar'
+]
+
+for kota in listKota:
+  print(kota)
